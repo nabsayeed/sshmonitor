@@ -1,0 +1,23 @@
+The aim of these scripts are to provide a simple and quick way to get a push notification when a successful login onto your ssh server
+
+Prerequisite:
+
+1. Obtain Pushover user key & API key from https://pushover.net/
+2. Ensure open-ssh is installed on your server and if it is exposed to the internet then the recommendation is to use certificates for authentication.
+3. Ensure python3 is installed and pip. 
+4. Install the python-pushover through pip --> 'pip install python-pushover'. More information here https://pushover.net/
+
+Installation guide:
+
+1. Download the scripts and edit the sshmonitor.py to add in your pushover user key & API 
+2. Modify /etc/ssh/sshd_config and add:
+              Forcecommand /LOCATION TO FOLDER WHERE SCRIPT IS SAVED/sshmonitor
+              
+              
+
+
+
+
+
+
+Notes: These scripts have been developed for personal use. I hold no responsibility for how these scripts are used and the effects they may have.  
