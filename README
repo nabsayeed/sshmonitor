@@ -1,3 +1,5 @@
+NOTE: I am not a developer or programmer, I just have some basic knowledge of bash and python. I am aware that this can probably done much more efficiently and I will eventually do it into one python script. It was just an idea that I wanted to try and implement
+
 The aim of these scripts are to provide a simple and quick way to get a push notification when a successful login onto your ssh server
 
 Prerequisite:
