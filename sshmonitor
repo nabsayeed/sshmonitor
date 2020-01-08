@@ -1,0 +1,5 @@
+#!/bin/bash
+cat /var/log/auth.log | grep "Accepted publickey" | tail -1 | awk -F 'ssh2' '{print $1}' > monitorlog
+python3 /opt/scripts/sshmonitor/sshmonitor.py
+/bin/bash -i
+
